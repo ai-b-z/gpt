@@ -350,7 +350,7 @@ partition_types! {
     /// Atari Basic Data Partition (GEM, BGM, F32)
     (ATARI_DATA, "734E5AFE-F61A-11E6-BC64-92361F002671", OperatingSystem::Atari),
     
-    (    (ANDROID_1, "D69E90A5-4CAB-0071-F6DF-AB977F141A7F", OperatingSystem::Android),
+    (ANDROID_1, "D69E90A5-4CAB-0071-F6DF-AB977F141A7F", OperatingSystem::Android),
     
     (ANDROID_2, "A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4", OperatingSystem::Android),
     
