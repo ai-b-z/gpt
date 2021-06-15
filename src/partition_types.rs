@@ -350,93 +350,93 @@ partition_types! {
     /// Atari Basic Data Partition (GEM, BGM, F32)
     (ATARI_DATA, "734E5AFE-F61A-11E6-BC64-92361F002671", OperatingSystem::Atari),
     
-    (ANDROID_1, "d69e90a5-4cab-0071-f6df-ab977f141a7f", OperatingSystem::Android),
+    (    (ANDROID_1, "D69E90A5-4CAB-0071-F6DF-AB977F141A7F", OperatingSystem::Android),
     
-    (ANDROID_2, "a053aa7f-40b8-4b1c-ba08-2f68ac71a4f4", OperatingSystem::Android),
+    (ANDROID_2, "A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4", OperatingSystem::Android),
     
-    (ANDROID_3, "e1a6a689-0c8d-4cc6-b4e8-55a4320fbd8a", OperatingSystem::Android),
+    (ANDROID_3, "E1A6A689-0C8D-4CC6-B4E8-55A4320FBD8A", OperatingSystem::Android),
     
-    (ANDROID_4, "ebd0a0a2-b9e5-4433-87c0-68b6b72699c7", OperatingSystem::Android),
+    (ANDROID_4, "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7", OperatingSystem::Android),
     
-    (ANDROID_5, "6cb747f1-c2ef-4092-add0-ca39f79c7af4", OperatingSystem::Android),
+    (ANDROID_5, "6CB747F1-C2EF-4092-ADD0-CA39F79C7AF4", OperatingSystem::Android),
     
-    (ANDROID_6, "ea02d680-8712-4552-a3be-e6087829c1e6", OperatingSystem::Android),
+    (ANDROID_6, "EA02D680-8712-4552-A3BE-E6087829C1E6", OperatingSystem::Android),
     
-    (ANDROID_7, "3878408a-e263-4b67-b878-6340b35b11e3", OperatingSystem::Android),
+    (ANDROID_7, "3878408A-E263-4B67-B878-6340B35B11E3", OperatingSystem::Android),
     
-    (ANDROID_8, "bd6928a1-4ce0-a038-4f3a-1495e3eddffb", OperatingSystem::Android),
+    (ANDROID_8, "BD6928A1-4CE0-A038-4F3A-1495E3EDDFFB", OperatingSystem::Android),
     
-    (ANDROID_9, "7efe5010-2a1a-4a1a-b8bc-990257813512", OperatingSystem::Android),
+    (ANDROID_9, "7EFE5010-2A1A-4A1A-B8BC-990257813512", OperatingSystem::Android),
     
-    (ANDROID_10, "a11d2a7c-d82a-4c2f-8a01-1805240e6626", OperatingSystem::Android),
+    (ANDROID_10, "A11D2A7C-D82A-4C2F-8A01-1805240E6626", OperatingSystem::Android),
     
-    (ANDROID_11, "20117f86-e985-4357-b9ee-374bc1d8487d", OperatingSystem::Android),
+    (ANDROID_11, "20117F86-E985-4357-B9EE-374BC1D8487D", OperatingSystem::Android),
     
-    (ANDROID_12, "73471795-ab54-43f9-a847-4f72ea5cbef5", OperatingSystem::Android),
+    (ANDROID_12, "73471795-AB54-43F9-A847-4F72EA5CBEF5", OperatingSystem::Android),
     
-    (ANDROID_13, "8ea64893-1267-4a1b-947c-7c362acaad2c", OperatingSystem::Android),
+    (ANDROID_13, "8EA64893-1267-4A1B-947C-7C362ACAAD2C", OperatingSystem::Android),
     
-    (ANDROID_14, "f65d4b16-343d-4e25-aafc-be99b6556a6d", OperatingSystem::Android),
+    (ANDROID_14, "F65D4B16-343D-4E25-AAFC-BE99B6556A6D", OperatingSystem::Android),
     
-    (ANDROID_15, "21d1219f-2ed1-4ab4-930a-41a16ae75f7f", OperatingSystem::Android),
+    (ANDROID_15, "21D1219F-2ED1-4AB4-930A-41A16AE75F7F", OperatingSystem::Android),
     
-    (ANDROID_16, "97d7b011-54da-4835-b3c4-917ad6e73d74", OperatingSystem::Android),
+    (ANDROID_16, "97D7B011-54DA-4835-B3C4-917AD6E73D74", OperatingSystem::Android),
     
-    (ANDROID_17, "4b7a15d6-322c-42ac-8110-88b7da0c5d77", OperatingSystem::Android),
+    (ANDROID_17, "4B7A15D6-322C-42AC-8110-88B7DA0C5D77", OperatingSystem::Android),
     
-    (ANDROID_18, "24d0d418-d31d-4d8d-ac2c-4d4305188450", OperatingSystem::Android),
+    (ANDROID_18, "24D0D418-D31D-4D8D-AC2C-4D4305188450", OperatingSystem::Android),
     
-    (ANDROID_19, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    (ANDROID_19, "77036CD4-03D5-42BB-8ED1-37E5A88BAA34", OperatingSystem::Android),
     
-    (ANDROID_20, "02db45fe-ad1b-4cb6-aecc-0042c637defa", OperatingSystem::Android),
+    (ANDROID_20, "02DB45FE-AD1B-4CB6-AECC-0042C637DEFA", OperatingSystem::Android),
     
-    (ANDROID_21, "9ad51e4d-3088-43ea-8ec7-991ad619f88e", OperatingSystem::Android),
+    (ANDROID_21, "9AD51E4D-3088-43EA-8EC7-991AD619F88E", OperatingSystem::Android),
     
-    (ANDROID_22, "9846625a-fe09-425b-a08f-2bf5f1f8d838", OperatingSystem::Android),
+    (ANDROID_22, "9846625A-FE09-425B-A08F-2BF5F1F8D838", OperatingSystem::Android),
     
-    (ANDROID_23, "9846625a-fe09-425b-a08f-2bf5f1f8d839", OperatingSystem::Android),
+    (ANDROID_23, "9846625A-FE09-425B-A08F-2BF5F1F8D839", OperatingSystem::Android),
     
-    (ANDROID_24, "9846625a-fe09-425b-a08f-2bf5f1f8d83a", OperatingSystem::Android),
+    (ANDROID_24, "9846625A-FE09-425B-A08F-2BF5F1F8D83A", OperatingSystem::Android),
     
-    (ANDROID_25, "9846625a-fe09-425b-a08f-2bf5f1f8d83b", OperatingSystem::Android),
+    (ANDROID_25, "9846625A-FE09-425B-A08F-2BF5F1F8D83B", OperatingSystem::Android),
     
-    (ANDROID_26, "9846625a-fe09-425b-a08f-2bf5f1f8d83c", OperatingSystem::Android),
+    (ANDROID_26, "9846625A-FE09-425B-A08F-2BF5F1F8D83C", OperatingSystem::Android),
     
-    (ANDROID_27, "9846625a-fe09-425b-a08f-2bf5f1f8d83d", OperatingSystem::Android),
+    (ANDROID_27, "9846625A-FE09-425B-A08F-2BF5F1F8D83D", OperatingSystem::Android),
     
-    (ANDROID_28, "9846625a-fe09-425b-a08f-2bf5f1f8d83e", OperatingSystem::Android),
+    (ANDROID_28, "9846625A-FE09-425B-A08F-2BF5F1F8D83E", OperatingSystem::Android),
     
-    (ANDROID_29, "9846625a-fe09-425b-a08f-2bf5f1f8d83f", OperatingSystem::Android),
+    (ANDROID_29, "9846625A-FE09-425B-A08F-2BF5F1F8D83F", OperatingSystem::Android),
     
-    (ANDROID_30, "961743ca-bd08-48d5-bd8c-25efeb7c7ac2", OperatingSystem::Android),
+    (ANDROID_30, "961743CA-BD08-48D5-BD8C-25EFEB7C7AC2", OperatingSystem::Android),
     
-    (ANDROID_31, "ca98971a-a88f-4342-bc74-58d1b639b636", OperatingSystem::Android),
+    (ANDROID_31, "CA98971A-A88F-4342-BC74-58D1B639B636", OperatingSystem::Android),
     
-    (ANDROID_32, "d1e30bcb-7d78-4fb6-b598-55fc4892644c", OperatingSystem::Android),
+    (ANDROID_32, "D1E30BCB-7D78-4FB6-B598-55FC4892644C", OperatingSystem::Android),
     
-    (ANDROID_33, "303e6ac3-af15-4c54-9e9b-d9a8fbecf401", OperatingSystem::Android),
+    (ANDROID_33, "303E6AC3-AF15-4C54-9E9B-D9A8FBECF401", OperatingSystem::Android),
     
-    (ANDROID_34, "65addcf4-0c5c-4d9a-ac2d-d90b5cbfcd03", OperatingSystem::Android),
+    (ANDROID_34, "65ADDCF4-0C5C-4D9A-AC2D-D90B5CBFCD03", OperatingSystem::Android),
     
-    (ANDROID_35, "4114b077-005d-4e12-ac8c-b493bda684fb", OperatingSystem::Android),
+    (ANDROID_35, "4114B077-005D-4E12-AC8C-B493BDA684FB", OperatingSystem::Android),
     
-    (ANDROID_36, "e6e98da2-e22a-4d12-ab33-169e7deaa507", OperatingSystem::Android),
+    (ANDROID_36, "E6E98DA2-E22A-4D12-AB33-169E7DEAA507", OperatingSystem::Android),
     
-    (ANDROID_37, "ed9e8101-05fa-46b7-82aa-8d58770d200b", OperatingSystem::Android),
+    (ANDROID_37, "ED9E8101-05FA-46B7-82AA-8D58770D200B", OperatingSystem::Android),
     
-    (ANDROID_38, "e42e2b4c-33b0-429b-b1ef-d341c547022c", OperatingSystem::Android),
+    (ANDROID_38, "E42E2B4C-33B0-429B-B1EF-D341C547022C", OperatingSystem::Android),
     
-    (ANDROID_39, "ad99f201-dc71-4e30-9630-e19eef553d1b", OperatingSystem::Android),
+    (ANDROID_39, "AD99F201-DC71-4E30-9630-E19EEF553D1B", OperatingSystem::Android),
     
-    (ANDROID_40, "10a0c19c-516a-5444-5ce3-664c3226a794", OperatingSystem::Android),
+    (ANDROID_40, "10A0C19C-516A-5444-5CE3-664C3226A794", OperatingSystem::Android),
     
-    (ANDROID_41, "97745aba-135a-44c3-9adc-05616173c24c", OperatingSystem::Android),
+    (ANDROID_41, "97745ABA-135A-44C3-9ADC-05616173C24C", OperatingSystem::Android),
     
-    (ANDROID_42, "bc0330eb-3410-4951-a617-03898dbe3372", OperatingSystem::Android),
+    (ANDROID_42, "BC0330EB-3410-4951-A617-03898DBE3372", OperatingSystem::Android),
     
-    (ANDROID_43, "aa9a5c4c-4f1f-7d3a-014a-22bd33bf7191", OperatingSystem::Android),
+    (ANDROID_43, "AA9A5C4C-4F1F-7D3A-014A-22BD33BF7191", OperatingSystem::Android),
     
-    (ANDROID_44, "5af80809-aabb-4943-9168-cdfc38742598", OperatingSystem::Android),
+    (ANDROID_44, "5AF80809-AABB-4943-9168-CDFC38742598", OperatingSystem::Android),
     
-    (ANDROID_45, "17911177-c9e6-4372-933c-804b678e666f", OperatingSystem::Android),
+    (ANDROID_45, "17911177-C9E6-4372-933C-804B678E666F", OperatingSystem::Android),
 }
