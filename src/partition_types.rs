@@ -483,4 +483,10 @@ partition_types! {
     (ANDROID_66, "638FF8E2-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
 
     (ANDROID_67, "57B90A16-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
+    
+    (ANDROID_68, "FDE1604B-D68B-4BD4-973D-962AE7A1ED88", OperatingSystem::Android),
+    
+    (ANDROID_69, "A19F205F-CCD8-4B6D-8F1E-2D9BC24CFFB1", OperatingSystem::Android),
+    
+    (ANDROID_70, "20A0C19C-286A-42FA-9CE7-F64C3226A794", OperatingSystem::Android),
 }
