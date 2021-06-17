@@ -439,4 +439,48 @@ partition_types! {
     (ANDROID_44, "5AF80809-AABB-4943-9168-CDFC38742598", OperatingSystem::Android),
     
     (ANDROID_45, "17911177-C9E6-4372-933C-804B678E666F", OperatingSystem::Android),
+
+    (ANDROID_46, "2C86E742-745E-4FDD-BFD8-B6A7AC638772", OperatingSystem::Android),
+
+    (ANDROID_47, "6C95E238-E343-4BA8-B489-8681ED22AD0B", OperatingSystem::Android),
+
+    (ANDROID_48, "82ACC91F-357C-4A68-9C8F-689E1B1A23A1", OperatingSystem::Android),
+
+    (ANDROID_49, "6D679BAB-23C7-466E-90AC-A39897C15640", OperatingSystem::Android),
+
+    (ANDROID_50, "DE7D4029-0F5B-41C8-AE7E-F6C023A02B33", OperatingSystem::Android),
+
+    (ANDROID_51, "91B72D4D-71E0-4CBF-9B8E-236381CFF17A", OperatingSystem::Android),
+
+    (ANDROID_52, "5594C694-C871-4B5F-90B1-690A6F68E0F7", OperatingSystem::Android),
+
+    (ANDROID_53, "EBBEADAE-22C9-E33B-8F5D-0E81686A68CC", OperatingSystem::Android),
+
+    (ANDROID_54, "0A288B1E-22C9-E33B-8F5D-0E81686A68CC", OperatingSystem::Android),
+
+    (ANDROID_55, "004A6838-062A-44DF-8152-4F340C052255", OperatingSystem::Android),
+
+    (ANDROID_56, "04377754-DE64-4ADB-852F-F01E702DF13B", OperatingSystem::Android),
+
+    (ANDROID_57, "97D7B011-54DA-4835-B3C4-917AD6E73D74", OperatingSystem::Android),
+
+    (ANDROID_58, "77036CD4-03D5-42BB-8ED1-37E5A88BAA34", OperatingSystem::Android),
+
+    (ANDROID_59, "E4B6514E-2577-495D-A484-1A0C460C6101", OperatingSystem::Android),
+
+    (ANDROID_60, "1B81E7E6-F50D-419B-A739-2AEEF8DA333", OperatingSystem::Android),
+
+    (ANDROID_61, "DEA0BA2C-CBDD-4805-B4F9-F428251C3E98", OperatingSystem::Android),
+
+    (ANDROID_62, "5A325AE4-4276-B66D-0ADD-3494DF27706A", OperatingSystem::Android),
+
+    (ANDROID_63, "6891A3B7-0CCC-4705-BB53-2673CAC193BD", OperatingSystem::Android),
+
+    (ANDROID_64, "EBBEADAF-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
+
+    (ANDROID_65, "0A288B1F-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
+
+    (ANDROID_66, "638FF8E2-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
+
+    (ANDROID_67, "57B90A16-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
 }
