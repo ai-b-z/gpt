@@ -349,144 +349,171 @@ partition_types! {
     (FREEDESK_BOOT, "BC13C2FF-59E6-4262-A352-B275FD6F7172", OperatingSystem::FreeDesktop),
     /// Atari Basic Data Partition (GEM, BGM, F32)
     (ATARI_DATA, "734E5AFE-F61A-11E6-BC64-92361F002671", OperatingSystem::Atari),
-    
-    (ANDROID_1, "D69E90A5-4CAB-0071-F6DF-AB977F141A7F", OperatingSystem::Android),
-    
-    (ANDROID_2, "A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4", OperatingSystem::Android),
-    
-    (ANDROID_3, "E1A6A689-0C8D-4CC6-B4E8-55A4320FBD8A", OperatingSystem::Android),
-    
-    (ANDROID_4, "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7", OperatingSystem::Android),
-    
-    (ANDROID_5, "6CB747F1-C2EF-4092-ADD0-CA39F79C7AF4", OperatingSystem::Android),
-    
-    (ANDROID_6, "EA02D680-8712-4552-A3BE-E6087829C1E6", OperatingSystem::Android),
-    
-    (ANDROID_7, "3878408A-E263-4B67-B878-6340B35B11E3", OperatingSystem::Android),
-    
-    (ANDROID_8, "BD6928A1-4CE0-A038-4F3A-1495E3EDDFFB", OperatingSystem::Android),
-    
-    (ANDROID_9, "7EFE5010-2A1A-4A1A-B8BC-990257813512", OperatingSystem::Android),
-    
-    (ANDROID_10, "A11D2A7C-D82A-4C2F-8A01-1805240E6626", OperatingSystem::Android),
-    
-    (ANDROID_11, "20117F86-E985-4357-B9EE-374BC1D8487D", OperatingSystem::Android),
-    
-    (ANDROID_12, "73471795-AB54-43F9-A847-4F72EA5CBEF5", OperatingSystem::Android),
-    
-    (ANDROID_13, "8EA64893-1267-4A1B-947C-7C362ACAAD2C", OperatingSystem::Android),
-    
-    (ANDROID_14, "F65D4B16-343D-4E25-AAFC-BE99B6556A6D", OperatingSystem::Android),
-    
-    (ANDROID_15, "21D1219F-2ED1-4AB4-930A-41A16AE75F7F", OperatingSystem::Android),
-    
-    (ANDROID_16, "97D7B011-54DA-4835-B3C4-917AD6E73D74", OperatingSystem::Android),
-    
-    (ANDROID_17, "4B7A15D6-322C-42AC-8110-88B7DA0C5D77", OperatingSystem::Android),
-    
-    (ANDROID_18, "24D0D418-D31D-4D8D-AC2C-4D4305188450", OperatingSystem::Android),
-    
-    (ANDROID_19, "77036CD4-03D5-42BB-8ED1-37E5A88BAA34", OperatingSystem::Android),
-    
-    (ANDROID_20, "02DB45FE-AD1B-4CB6-AECC-0042C637DEFA", OperatingSystem::Android),
-    
-    (ANDROID_21, "9AD51E4D-3088-43EA-8EC7-991AD619F88E", OperatingSystem::Android),
-    
-    (ANDROID_22, "9846625A-FE09-425B-A08F-2BF5F1F8D838", OperatingSystem::Android),
-    
-    (ANDROID_23, "9846625A-FE09-425B-A08F-2BF5F1F8D839", OperatingSystem::Android),
-    
-    (ANDROID_24, "9846625A-FE09-425B-A08F-2BF5F1F8D83A", OperatingSystem::Android),
-    
-    (ANDROID_25, "9846625A-FE09-425B-A08F-2BF5F1F8D83B", OperatingSystem::Android),
-    
-    (ANDROID_26, "9846625A-FE09-425B-A08F-2BF5F1F8D83C", OperatingSystem::Android),
-    
-    (ANDROID_27, "9846625A-FE09-425B-A08F-2BF5F1F8D83D", OperatingSystem::Android),
-    
-    (ANDROID_28, "9846625A-FE09-425B-A08F-2BF5F1F8D83E", OperatingSystem::Android),
-    
-    (ANDROID_29, "9846625A-FE09-425B-A08F-2BF5F1F8D83F", OperatingSystem::Android),
-    
-    (ANDROID_30, "961743CA-BD08-48D5-BD8C-25EFEB7C7AC2", OperatingSystem::Android),
-    
-    (ANDROID_31, "CA98971A-A88F-4342-BC74-58D1B639B636", OperatingSystem::Android),
-    
-    (ANDROID_32, "D1E30BCB-7D78-4FB6-B598-55FC4892644C", OperatingSystem::Android),
-    
-    (ANDROID_33, "303E6AC3-AF15-4C54-9E9B-D9A8FBECF401", OperatingSystem::Android),
-    
-    (ANDROID_34, "65ADDCF4-0C5C-4D9A-AC2D-D90B5CBFCD03", OperatingSystem::Android),
-    
-    (ANDROID_35, "4114B077-005D-4E12-AC8C-B493BDA684FB", OperatingSystem::Android),
-    
-    (ANDROID_36, "E6E98DA2-E22A-4D12-AB33-169E7DEAA507", OperatingSystem::Android),
-    
-    (ANDROID_37, "ED9E8101-05FA-46B7-82AA-8D58770D200B", OperatingSystem::Android),
-    
-    (ANDROID_38, "E42E2B4C-33B0-429B-B1EF-D341C547022C", OperatingSystem::Android),
-    
-    (ANDROID_39, "AD99F201-DC71-4E30-9630-E19EEF553D1B", OperatingSystem::Android),
-    
-    (ANDROID_40, "10A0C19C-516A-5444-5CE3-664C3226A794", OperatingSystem::Android),
-    
-    (ANDROID_41, "97745ABA-135A-44C3-9ADC-05616173C24C", OperatingSystem::Android),
-    
-    (ANDROID_42, "BC0330EB-3410-4951-A617-03898DBE3372", OperatingSystem::Android),
-    
-    (ANDROID_43, "AA9A5C4C-4F1F-7D3A-014A-22BD33BF7191", OperatingSystem::Android),
-    
-    (ANDROID_44, "5AF80809-AABB-4943-9168-CDFC38742598", OperatingSystem::Android),
-    
-    (ANDROID_45, "17911177-C9E6-4372-933C-804B678E666F", OperatingSystem::Android),
+    /// Android ssd partition
+    (ANDROID_SSD_MISC, "2c86e742-745e-4fdd-bfd8-b6a7ac638772", OperatingSystem::Android),
+    /// Android persist partition
+    (ANDROID_PERSIST_MISC, "6c95e238-e343-4ba8-b489-8681ed22ad0b", OperatingSystem::Android),
+    /// Android misc partition
+    (ANDROID_MISC_MISC, "82acc91f-357c-4a68-9c8f-689e1b1a23a1", OperatingSystem::Android),
+    /// Android param partition
+    (ANDROID_PARAM_MISC, "6d679bab-23c7-466e-90ac-a39897c15640", OperatingSystem::Android),
+    /// Android keystore partition
+    (ANDROID_KEYSTORE_MISC, "de7d4029-0f5b-41c8-ae7e-f6c023a02b33", OperatingSystem::Android),
+    /// Android frp partition
+    (ANDROID_FRP_MISC, "91b72d4d-71e0-4cbf-9b8e-236381cff17a", OperatingSystem::Android),
+    /// Android op2 partition
+    (ANDROID_OP2_MISC, "5594c694-c871-4b5f-90b1-690a6f68e0f7", OperatingSystem::Android),
+    /// Android oem_dycnvbk partition
+    (ANDROID_OEM_DYCNVBK_MISC, "ebbeadae-22c9-e33b-8f5d-0e81686a68cc", OperatingSystem::Android),
+    /// Android oem_stanvbk partition
+    (ANDROID_OEM_STANVBK_MISC, "0a288b1e-22c9-e33b-8f5d-0e81686a68cc", OperatingSystem::Android),
+    /// Android reserve1 partition
+    (ANDROID_RESERVE1_MISC, "004a6838-062a-44df-8152-4f340c052255", OperatingSystem::Android),
+    /// Android config partition
+    (ANDROID_CONFIG, "04377754-de64-4adb-852f-f01e702df13b", OperatingSystem::Android),
+    /// Android system_a partition
+    (ANDROID_SYSTEM_A_MISC, "97d7b011-54da-4835-b3c4-917ad6e73d74", OperatingSystem::Android),
+    /// Android system_b partition
+    (ANDROID_SYSTEM_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android odm_b partition
+    (ANDROID_ODM_B, "e4b6514e-2577-495d-a484-1a0c460c6101", OperatingSystem::Android),
+    /// Android userdata partition
+    (ANDROID_USERDATA_MISC, "1b81e7e6-f50d-419b-a739-2aeef8da3335", OperatingSystem::Android),
+    /// Android xbl_a partition
+    (ANDROID_XBL_A_MISC, "dea0ba2c-cbdd-4805-b4f9-f428251c3e98", OperatingSystem::Android),
+    /// Android xbl_config_a partition
+    (ANDROID_XBL_CONFIG_A_MISC, "5a325ae4-4276-b66d-0add-3494df27706a", OperatingSystem::Android),
+    /// Android xbl_config_b partition
+    (ANDROID_XBL_CONFIG_B_MISC, "5a325ae4-4276-b66d-0add-3494df27706a", OperatingSystem::Android),
+    /// Android ALIGN_TO_128K_1 partition
+    (ANDROID_ALIGN_TO_128K_1_MISC, "fde1604b-d68b-4bd4-973d-962ae7a1ed88", OperatingSystem::Android),
+    /// Android cdt partition
+    (ANDROID_CDT_MISC, "a19f205f-ccd8-4b6d-8f1e-2d9bc24cffb1", OperatingSystem::Android),
+    /// Android ddr partition
+    (ANDROID_DDR_MISC, "20a0c19c-286a-42fa-9ce7-f64c3226a794", OperatingSystem::Android),
+    /// Android aop_a partition
+    (ANDROID_AOP_A_MISC, "d69e90a5-4cab-0071-f6df-ab977f141a7f", OperatingSystem::Android),
+    /// Android tz_a partition
+    (ANDROID_TZ_A_MISC, "a053aa7f-40b8-4b1c-ba08-2f68ac71a4f4", OperatingSystem::Android),
+    /// Android hyp_a partition
+    (ANDROID_HYP_A_MISC, "e1a6a689-0c8d-4cc6-b4e8-55a4320fbd8a", OperatingSystem::Android),
+    /// Android modem_a partition
+    (ANDROID_MODEM_A_MISC, "ebd0a0a2-b9e5-4433-87c0-68b6b72699c7", OperatingSystem::Android),
+    /// Android bluetooth_a partition
+    (ANDROID_BLUETOOTH_A_MISC, "6cb747f1-c2ef-4092-add0-ca39f79c7af4", OperatingSystem::Android),
+    /// Android mdtpsecapp_a partition
+    (ANDROID_MDTPSECAPP_A_MISC, "ea02d680-8712-4552-a3be-e6087829c1e6", OperatingSystem::Android),
+    /// Android mdtp_a partition
+    (ANDROID_MDTP_A_MISC, "3878408a-e263-4b67-b878-6340b35b11e3", OperatingSystem::Android),
+    /// Android abl_a partition
+    (ANDROID_ABL_A_MISC, "bd6928a1-4ce0-a038-4f3a-1495e3eddffb", OperatingSystem::Android),
+    /// Android dsp_a partition
+    (ANDROID_DSP_A_MISC, "7efe5010-2a1a-4a1a-b8bc-990257813512", OperatingSystem::Android),
+    /// Android keymaster_a partition
+    (ANDROID_KEYMASTER_A_MISC, "a11d2a7c-d82a-4c2f-8a01-1805240e6626", OperatingSystem::Android),
+    /// Android boot_a partition
+    (ANDROID_BOOT_A_MISC, "20117f86-e985-4357-b9ee-374bc1d8487d", OperatingSystem::Android),
+    /// Android cmnlib_a partition
+    (ANDROID_CMNLIB_A_MISC, "73471795-ab54-43f9-a847-4f72ea5cbef5", OperatingSystem::Android),
+    /// Android cmnlib64_a partition
+    (ANDROID_CMNLIB64_A_MISC, "8ea64893-1267-4a1b-947c-7c362acaad2c", OperatingSystem::Android),
+    /// Android devcfg_a partition
+    (ANDROID_DEVCFG_A_MISC, "f65d4b16-343d-4e25-aafc-be99b6556a6d", OperatingSystem::Android),
+    /// Android qupfw_a partition
+    (ANDROID_QUPFW_A_MISC, "21d1219f-2ed1-4ab4-930a-41a16ae75f7f", OperatingSystem::Android),
+    /// Android vbmeta_a partition
+    (ANDROID_VBMETA_A, "4b7a15d6-322c-42ac-8110-88b7da0c5d77", OperatingSystem::Android),
+    /// Android dtbo_a partition
+    (ANDROID_DTBO_A_MISC, "24d0d418-d31d-4d8d-ac2c-4d4305188450", OperatingSystem::Android),
+    /// Android storsec_a partition
+    (ANDROID_STORSEC_A_MISC, "02db45fe-ad1b-4cb6-aecc-0042c637defa", OperatingSystem::Android),
+    /// Android LOGO_a partition
+    (ANDROID_LOGO_A_MISC, "9ad51e4d-3088-43ea-8ec7-991ad619f88e", OperatingSystem::Android),
+    /// Android fw_4j1ed_a partition
+    (ANDROID_FW_4J1ED_A_MISC, "9846625a-fe09-425b-a08f-2bf5f1f8d838", OperatingSystem::Android),
+    /// Android fw_4u1ea_a partition
+    (ANDROID_FW_4U1EA_A_MISC, "9846625a-fe09-425b-a08f-2bf5f1f8d839", OperatingSystem::Android),
+    /// Android fw_ufs3_a partition
+    (ANDROID_FW_UFS3_A_MISC, "9846625a-fe09-425b-a08f-2bf5f1f8d83a", OperatingSystem::Android),
+    /// Android fw_ufs4_a partition
+    (ANDROID_FW_UFS4_A_MISC, "9846625a-fe09-425b-a08f-2bf5f1f8d83b", OperatingSystem::Android),
+    /// Android fw_ufs5_a partition
+    (ANDROID_FW_UFS5_A_MISC, "9846625a-fe09-425b-a08f-2bf5f1f8d83c", OperatingSystem::Android),
+    /// Android fw_ufs6_a partition
+    (ANDROID_FW_UFS6_A_MISC, "9846625a-fe09-425b-a08f-2bf5f1f8d83d", OperatingSystem::Android),
+    /// Android fw_ufs7_a partition
+    (ANDROID_FW_UFS7_A_MISC, "9846625a-fe09-425b-a08f-2bf5f1f8d83e", OperatingSystem::Android),
+    /// Android fw_ufs8_a partition
+    (ANDROID_FW_UFS8_A_MISC, "9846625a-fe09-425b-a08f-2bf5f1f8d83f", OperatingSystem::Android),
+    /// Android tz_b partition
+    (ANDROID_TZ_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android modem_b partition
+    (ANDROID_MODEM_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android mdtpsecapp_b partition
+    (ANDROID_MDTPSECAPP_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android abl_b partition
+    (ANDROID_ABL_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android keymaster_b partition
+    (ANDROID_KEYMASTER_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android cmnlib_b partition
+    (ANDROID_CMNLIB_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android devcfg_b partition
+    (ANDROID_DEVCFG_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android vendor_b partition
+    (ANDROID_VENDOR_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android dtbo_b partition
+    (ANDROID_DTBO_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android LOGO_b partition
+    (ANDROID_LOGO_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android fw_4u1ea_b partition
+    (ANDROID_FW_4U1EA_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android fw_ufs4_b partition
+    (ANDROID_FW_UFS4_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android fw_ufs6_b partition
+    (ANDROID_FW_UFS6_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android fw_ufs8_b partition
+    (ANDROID_FW_UFS8_B_MISC, "77036cd4-03d5-42bb-8ed1-37e5a88baa34", OperatingSystem::Android),
+    /// Android minidump partition
+    (ANDROID_MINIDUMP_MISC, "961743ca-bd08-48d5-bd8c-25efeb7c7ac2", OperatingSystem::Android),
+    /// Android boot_aging partition
+    (ANDROID_BOOT_AGING_MISC, "ca98971a-a88f-4342-bc74-58d1b639b636", OperatingSystem::Android),
+    /// Android op1 partition
+    (ANDROID_OP1_MISC, "d1e30bcb-7d78-4fb6-b598-55fc4892644c", OperatingSystem::Android),
+    /// Android sec partition
+    (ANDROID_SEC_MISC, "303e6ac3-af15-4c54-9e9b-d9a8fbecf401", OperatingSystem::Android),
+    /// Android devinfo partition
+    (ANDROID_DEVINFO_MISC, "65addcf4-0c5c-4d9a-ac2d-d90b5cbfcd03", OperatingSystem::Android),
+    /// Android dip partition
+    (ANDROID_DIP_MISC, "4114b077-005d-4e12-ac8c-b493bda684fb", OperatingSystem::Android),
+    /// Android apdp partition
+    (ANDROID_APDP_MISC, "e6e98da2-e22a-4d12-ab33-169e7deaa507", OperatingSystem::Android),
+    /// Android msadp partition
+    (ANDROID_MSADP_MISC, "ed9e8101-05fa-46b7-82aa-8d58770d200b", OperatingSystem::Android),
+    /// Android spunvm partition
+    (ANDROID_SPUNVM_MISC, "e42e2b4c-33b0-429b-b1ef-d341c547022c", OperatingSystem::Android),
+    /// Android splash partition
+    (ANDROID_SPLASH_MISC, "ad99f201-dc71-4e30-9630-e19eef553d1b", OperatingSystem::Android),
+    /// Android limits partition
+    (ANDROID_LIMITS_MISC, "10a0c19c-516a-5444-5ce3-664c3226a794", OperatingSystem::Android),
+    /// Android toolsfv partition
+    (ANDROID_TOOLSFV_MISC, "97745aba-135a-44c3-9adc-05616173c24c", OperatingSystem::Android),
+    /// Android logfs partition
+    (ANDROID_LOGFS_MISC, "bc0330eb-3410-4951-a617-03898dbe3372", OperatingSystem::Android),
+    /// Android sti partition
+    (ANDROID_STI_MISC, "aa9a5c4c-4f1f-7d3a-014a-22bd33bf7191", OperatingSystem::Android),
+    /// Android logdump partition
+    (ANDROID_LOGDUMP_MISC, "5af80809-aabb-4943-9168-cdfc38742598", OperatingSystem::Android),
+    /// Android ImageFv partition
+    (ANDROID_IMAGEFV_MISC, "17911177-c9e6-4372-933c-804b678e666f", OperatingSystem::Android),
+    /// Android ALIGN_TO_128K_2 partition
+    (ANDROID_ALIGN_TO_128K_2_MISC, "6891a3b7-0ccc-4705-bb53-2673cac193bd", OperatingSystem::Android),
+    /// Android modemst1 partition
+    (ANDROID_MODEMST1_MISC, "ebbeadaf-22c9-e33b-8f5d-0e81686a68cb", OperatingSystem::Android),
+    /// Android modemst2 partition
+    (ANDROID_MODEMST2_MISC, "0a288b1f-22c9-e33b-8f5d-0e81686a68cb", OperatingSystem::Android),
+    /// Android fsg partition
+    (ANDROID_FSG_MISC, "638ff8e2-22c9-e33b-8f5d-0e81686a68cb", OperatingSystem::Android),
+    /// Android fsc partition
+    (ANDROID_FSC_MISC, "57b90a16-22c9-e33b-8f5d-0e81686a68cb", OperatingSystem::Android),
 
-    (ANDROID_46, "2C86E742-745E-4FDD-BFD8-B6A7AC638772", OperatingSystem::Android),
-
-    (ANDROID_47, "6C95E238-E343-4BA8-B489-8681ED22AD0B", OperatingSystem::Android),
-
-    (ANDROID_48, "82ACC91F-357C-4A68-9C8F-689E1B1A23A1", OperatingSystem::Android),
-
-    (ANDROID_49, "6D679BAB-23C7-466E-90AC-A39897C15640", OperatingSystem::Android),
-
-    (ANDROID_50, "DE7D4029-0F5B-41C8-AE7E-F6C023A02B33", OperatingSystem::Android),
-
-    (ANDROID_51, "91B72D4D-71E0-4CBF-9B8E-236381CFF17A", OperatingSystem::Android),
-
-    (ANDROID_52, "5594C694-C871-4B5F-90B1-690A6F68E0F7", OperatingSystem::Android),
-
-    (ANDROID_53, "EBBEADAE-22C9-E33B-8F5D-0E81686A68CC", OperatingSystem::Android),
-
-    (ANDROID_54, "0A288B1E-22C9-E33B-8F5D-0E81686A68CC", OperatingSystem::Android),
-
-    (ANDROID_55, "004A6838-062A-44DF-8152-4F340C052255", OperatingSystem::Android),
-
-    (ANDROID_56, "04377754-DE64-4ADB-852F-F01E702DF13B", OperatingSystem::Android),
-
-    (ANDROID_57, "97D7B011-54DA-4835-B3C4-917AD6E73D74", OperatingSystem::Android),
-
-    (ANDROID_58, "77036CD4-03D5-42BB-8ED1-37E5A88BAA34", OperatingSystem::Android),
-
-    (ANDROID_59, "E4B6514E-2577-495D-A484-1A0C460C6101", OperatingSystem::Android),
-
-    (ANDROID_60, "1B81E7E6-F50D-419B-A739-2AEEF8DA333", OperatingSystem::Android),
-
-    (ANDROID_61, "DEA0BA2C-CBDD-4805-B4F9-F428251C3E98", OperatingSystem::Android),
-
-    (ANDROID_62, "5A325AE4-4276-B66D-0ADD-3494DF27706A", OperatingSystem::Android),
-
-    (ANDROID_63, "6891A3B7-0CCC-4705-BB53-2673CAC193BD", OperatingSystem::Android),
-
-    (ANDROID_64, "EBBEADAF-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
-
-    (ANDROID_65, "0A288B1F-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
-
-    (ANDROID_66, "638FF8E2-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
-
-    (ANDROID_67, "57B90A16-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
-    
-    (ANDROID_68, "FDE1604B-D68B-4BD4-973D-962AE7A1ED88", OperatingSystem::Android),
-    
-    (ANDROID_69, "A19F205F-CCD8-4B6D-8F1E-2D9BC24CFFB1", OperatingSystem::Android),
-    
-    (ANDROID_70, "20A0C19C-286A-42FA-9CE7-F64C3226A794", OperatingSystem::Android),
 }
