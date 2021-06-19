@@ -515,5 +515,12 @@ partition_types! {
     (Android_FSG_MISC, "638FF8E2-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
     /// Android FSC partition
     (Android_FSC_MISC, "57B90A16-22C9-E33B-8F5D-0E81686A68CB", OperatingSystem::Android),
-
+    // Android LAST_PARTI partition, OP6(T), sdb
+    (Android_LAST_PARTI_SDB, "E7785A69-F84A-CDF6-8049-5CF79F42EC08", OperatingSystem::Android),
+    // Android LAST_PARTI partition, OP6(T), sdc
+    (Android_LAST_PARTI_SDC, "E10A4145-D42A-351B-6271-AE1FD9394F0E", OperatingSystem::Android),
+    // Android LAST_PARTI partition, OP6(T), sdd
+    (Android_LAST_PARTI_SDD, "D58968CE-89A0-6996-DD8A-8B1AE5417878", OperatingSystem::Android),
+    // Android LAST_PARTI partition, OP6(T), sde
+    (Android_LAST_PARTI_SDE, "7F3CF214-BA36-D423-9B22-FE1C3E4CBD43", OperatingSystem::Android),
 }
