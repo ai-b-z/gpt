@@ -17,7 +17,7 @@ pub enum OperatingSystem {
     /// No OS
     None,
     /// ANDROID OS
-    ANDROID,
+    Android,
     /// Atari
     Atari,
     /// Ceph
@@ -68,7 +68,7 @@ impl FromStr for OperatingSystem {
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s {
             "unused" => Ok(OperatingSystem::None),
-            "android" => Ok(OperatingSystem::ANDROID),
+            "android" => Ok(OperatingSystem::Android),
             "atari" => Ok(OperatingSystem::Atari),
             "Ceph" => Ok(OperatingSystem::Ceph),
             "Chrome" => Ok(OperatingSystem::Chrome),
